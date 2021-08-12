@@ -82,27 +82,44 @@
 //       //длина / legth 3
 //     arifSum(1,2,3)
    
-function agge(){
-const age =18;
+// function agge(){
+// const age =18;
 
-if (age >= 18){
-    console.log('yes');
-}
-else (age < 18);{
-    console.log('no');
-}
-return age;
-}
-agge(23)
+// if (age >= 18){
+//     console.log('yes');
+// }
+// else (age < 18);{
+//     console.log('no');
+// }
+// return age;
+// }
+// agge(23)
 
 
-const num=25;
-const sqrt = Math.sqrt(num)
-if(sqrt % Math.floor(sqrt) ===0){
-    return}
+// const num=25;
+// const sqrt = Math.sqrt(num)
+// if(sqrt % Math.floor(sqrt) ===0) {
+//     return}
     
-    if(sqrt -Math.floor(sqrt)===0){
-        console.log("ost");
-    }
+//     if(sqrt -Math.floor(sqrt)===0){
+//         console.log("ost");
+//     }
 
+
+const array = [];
+for (let i=0;i<10; i++) {
+    array[i] = i +1;
 }
+
+console.log(array);
+
+
+const newArray = array.slice();
+console.log(newArray);
+
+const arr  = [];
+for (let i =5; i<newArray.length;i++){
+      arr.push(newArray[i])
+}      
+
+console.log(arr);
