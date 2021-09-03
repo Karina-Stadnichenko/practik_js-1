@@ -106,20 +106,34 @@
 //     }
 
 
-const array = [];
-for (let i=0;i<10; i++) {
-    array[i] = i +1;
+// const array = [];
+// for (let i=0;i<10; i++) {
+//     array[i] = i +1;
+// }
+
+// console.log(array);
+
+
+// const newArray = array.slice();
+// console.log(newArray);
+
+// const arr  = [];
+// for (let i =5; i<newArray.length;i++){
+//       arr.push(newArray[i])
+// }      
+
+// console.log(arr);
+
+const arr1 = [1,2,3,4,5,6];
+const arr2 =[...arr1];
+console.log(arr2);
+
+const arr3 = [...arr1,7,8,9,10,11];
+console.log(arr3);
+
+function  array() {
+    const arr = Array.prototype.slice.call(arguments)
+
 }
+console.log(arr); 
 
-console.log(array);
-
-
-const newArray = array.slice();
-console.log(newArray);
-
-const arr  = [];
-for (let i =5; i<newArray.length;i++){
-      arr.push(newArray[i])
-}      
-
-console.log(arr);
